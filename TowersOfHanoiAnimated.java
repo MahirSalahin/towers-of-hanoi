@@ -1,3 +1,8 @@
+/*********************
+*StdDraw library has been used to write this program. 
+* Anyone interested to run this java file must download StdDraw library file and add it to Enviornmental veriable.
+*********************/
+
 public class TowersOfHanoiAnimated {
 
     private static double poleLength, smallestDiscW, x0, y0;
