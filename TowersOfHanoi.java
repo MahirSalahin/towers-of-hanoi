@@ -1,16 +1,13 @@
-/* *****************************************************************************
- *  Name:              Ada Lovelace
- *  Coursera User ID:  123456
- *  Last modified:     October 16, 1842
- **************************************************************************** */
-
 public class TowersOfHanoi {
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
-        move(n, 'A', 'B', 'C');
+        move( n, 'A', 'B', 'C' );         //or use the other function
         System.out.println();
     }
 
+    //Here two functions are presented. Each of them give sets of instructions to solve the 'Towers od Hanoi' problem.
+
+    
     public static void move(int n, boolean left) {
         if (n == 0) return;
         move(n - 1, !left);
