@@ -8,3 +8,6 @@ The Tower of Hanoi (also called The problem of Benares Temple or Tower of Brahma
 With 3 disks, the puzzle can be solved in 7 moves. The minimal number of moves required to solve a Tower of Hanoi puzzle is 2n − 1, where n is the number of disks.  
 
 Source:https://en.wikipedia.org/wiki/Tower_of_Hanoi
+
+## Demo:
+![GIF](https://github.com/MahirSalahin/Towers_of_Hanoi/blob/main/Towers_of_Hanoi_Simulation.gif)
